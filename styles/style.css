@@ -38,6 +38,7 @@
     padding: 14px 17px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 section{
     margin: 57px 160px;
@@ -63,6 +64,10 @@ section{
 .header nav{
     display: flex;
     justify-content: space-between;
+}
+.header nav .dropdown_btn{
+    display: none;
+    cursor: pointer;
 }
 .header nav ul{
     width: 320px;
@@ -91,3 +96,33 @@ section{
     width: 100%;
     margin-top: 34px;
 }
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
