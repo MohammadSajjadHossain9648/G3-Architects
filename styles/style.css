@@ -22,6 +22,7 @@
 }
 .description{
     font-size: 11px;
+    padding: 16px 0 22px;
     color: var(--shade-black-color);
 }
 .subtitle{
@@ -40,3 +41,17 @@
 section{
     margin: 57px 160px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header section */
