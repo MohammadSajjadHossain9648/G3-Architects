@@ -209,7 +209,10 @@ section{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .quick_list .quick_list_img_container img{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
