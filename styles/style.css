@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     font-family: "Work Sans", sans-serif;
+    max-width: 1280px;
 }
 :root{
     --primary-orange-color: rgb(255, 144, 14);
@@ -17,20 +18,20 @@
     --light-bg-color: rgb(255, 244, 231);
 }
 .title{
-    font-size: 30px;
+    font-size: 1.26rem; /* 20px */
     color: var(--primary-black-color);
 }
 .description{
-    font-size: 11px;
+    font-size: 0.688rem; /* 11px */
     padding: 16px 0 22px;
     color: var(--shade-black-color);
 }
 .subtitle{
-    font-size: 14px;
+    font-size: 0.875rem; /* 14px */
     color: var(--primary-black-color);
 }
 .btn{
-    font-size: 14px;
+    font-size: 0.875rem; /* 14px */
     font-weight: 600;
     color: var(--primary-white-color);
     background-color: var(--primary-orange-color);
@@ -55,3 +56,38 @@ section{
 
 
 /* header section */
+.header{
+    padding: 30px 160px;
+    background-color: var(--banner-bg-color);
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header nav ul{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav ul li{
+    list-style: none;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-black-color);
+    font-size: 0.813rem;
+}
+
+.header .banner .banner_container{
+    width: 578px;
+    text-align: center;
+    margin: 70px auto 0;
+}
+.header .banner .banner_container .title{
+    font-size: 2.688rem;
+}
+.header .banner img{
+    width: 100%;
+    margin-top: 34px;
+}
