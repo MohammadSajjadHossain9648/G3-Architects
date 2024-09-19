@@ -250,7 +250,7 @@ section{
 }
 
 .features .features_img_container img{
-    width: 475px;
+    max-width: 475px;
 }
 .features .features_img_container .features_btn{
     padding: 30px 28px;
@@ -272,7 +272,18 @@ section{
 
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .features{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .features .features_img_container img{
+        max-width: auto;
+        height: 500px;
+        padding-left: 100px;
+    }
+    .features .features_img_container .features_btn{
+        margin-left: 50px;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
