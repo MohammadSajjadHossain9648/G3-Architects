@@ -27,11 +27,12 @@
     color: var(--shade-black-color);
 }
 .subtitle{
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.8375rem; /* 14px */
+    font-weight: 600;
     color: var(--primary-black-color);
 }
 .btn{
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.8375rem; /* 14px */
     font-weight: 600;
     color: var(--primary-white-color);
     background-color: var(--primary-orange-color);
@@ -102,7 +103,7 @@ section{
     margin: 70px auto 0;
 }
 .header .banner .banner_container .title{
-    font-size: 2.688rem;
+    font-size: 2.688rem; /* 65px */
 }
 .header .banner img{
     width: 100%;
@@ -227,7 +228,47 @@ section{
 
 
 /* features section */
+.features{
+    display: flex;
+    gap: 98px;
+}
+.features .features_container{
+    margin-top: 39px;
+}
+.features .features_container .title{
+    border-left: 5px solid var(--primary-orange-color);
+    padding-left: 15px;
+}
+.features .features_container .features_card{
+    padding: 20px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features .features_container .features_card .description{
+    padding: 16px 0 0;
+}
 
+.features .features_img_container img{
+    width: 475px;
+}
+.features .features_img_container .features_btn{
+    padding: 30px 28px;
+    background-color: var(--primary-orange-color);
+    border: none;
+    border-radius: 5px;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.features .features_img_container .features_btn .title{
+    font-size: 2.688rem;
+    color: var(--primary-white-color);
+}
+.features .features_img_container .features_btn .subtitle{
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--primary-white-color);
+}
 
 /* mobile responsive design */
 @media screen and (max-width: 576px){
