@@ -412,7 +412,18 @@ section{
 
 
 /* footer section */
-
+.footer{
+    margin: 145px 160px;
+    padding: 27px 0;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light-bg-color);
+}
+.footer .footer_title{
+    font-size: 0.8375rem; /* 14px */
+    color: var(--secondary-black-color);
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
