@@ -287,7 +287,10 @@ section{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .features .features_img_container img{
+        max-width: 370px;
+        height: 680px;
+    }
 }
 
 
