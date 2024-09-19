@@ -329,11 +329,13 @@ section{
 /* mobile responsive design */
 @media screen and (max-width: 576px){
     .facts .facts_header{
+        padding-top: 50px;
         width: 60%;
     }
     .facts .facts_container{
+        margin-top: 30px;
         grid-template-columns: auto;
-        gap: 40px;
+        gap: 20px;
     }
 }
 /* tablet responsive design */
@@ -361,7 +363,7 @@ section{
 
 /* sponsors section */
 .sponsors{
-    padding: 60px 0;
+    padding-top: 60px;
 }
 .sponsors .sponsors_header{
     width: 40%;
@@ -380,7 +382,24 @@ section{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .sponsors{
+        padding-top: 40px;
+    }
+    .sponsors .sponsors_header{
+        width: 100%;
+    }
+    .sponsors .sponsors_companies{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .sponsors .sponsors_companies img{
+        align-self: center;
+        justify-self: center;
+    }
+    .sponsors .sponsors_companies img:last-child{
+        grid-column: 1 / span 2;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
