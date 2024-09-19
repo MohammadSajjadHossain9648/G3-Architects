@@ -297,8 +297,10 @@ section{
 }
 .facts .facts_container{
     margin-top: 68px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    padding: 0 30px;
 }
 .facts .facts_container .facts_container_card{
     padding: 30px 24px 40px;
@@ -326,7 +328,13 @@ section{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .facts .facts_header{
+        width: 60%;
+    }
+    .facts .facts_container{
+        grid-template-columns: auto;
+        gap: 40px;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
