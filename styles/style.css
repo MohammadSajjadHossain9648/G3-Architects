@@ -68,8 +68,6 @@ section{
 
 
 
-
-
 /* header section */
 .header{
     padding: 30px 160px;
@@ -158,13 +156,6 @@ section{
 
 
 
-
-
-
-
-
-
-
 /* quick list section */
 .quick_list{
     display: flex;
@@ -215,8 +206,6 @@ section{
         height: 200px;
     }
 }
-
-
 
 
 
@@ -298,6 +287,20 @@ section{
 
 
 
+
+
+
+
+/* facts section */
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
 
 
 
