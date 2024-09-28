@@ -4,7 +4,7 @@
 /* common style */
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     font-family: "Work Sans", sans-serif;
     max-width: 1280px;
 }
